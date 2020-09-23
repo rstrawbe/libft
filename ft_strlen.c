@@ -6,7 +6,7 @@
 /*   By: rstrawbe <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/04 20:26:42 by rstrawbe          #+#    #+#             */
-/*   Updated: 2020/05/04 20:33:29 by rstrawbe         ###   ########.fr       */
+/*   Updated: 2020/09/23 23:52:29 by rstrawbe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ size_t	ft_strlen(const char *s)
 
 	p = (char *)s;
 	if (!p)
-	    return (0);
+		return (0);
 	i = 0;
 	while (p && *(p++) != '\0')
 		i++;
